@@ -8,20 +8,59 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 img{
     width: 100%;
 }
 
+
+
 /* =================================
 ============= deafult classes=================
 ====================================*/
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
 
 
+.half-width{
+    width: 48%;
+   margin: auto;
+}
 
-
-
-
+.btn-red {
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 10px 25px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.mx-50{
+    margin: 50px auto;
+}
 
 /* =================================
 ============= Header css =================
 ====================================*/
+ 
+   .banner{
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    color: #fff;
+
+   } 
+   .content {
+    width: 80%;
+    margin: auto;
+}
+
+.content h1 {
+    font-size: 54px;
+    margin-bottom: 8px;
+}
