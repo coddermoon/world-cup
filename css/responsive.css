@@ -1,0 +1,58 @@
+/* ==========================
+
+======== For tablet =================
+
+=================================== */
+
+@media (max-width:768px) {
+
+    .live-match{
+        grid-template-columns: auto;
+    }
+    
+    article.matches {
+      
+        grid-template-columns: repeat(2,1fr);
+
+        
+       
+    }
+    .menu-buttons {
+       
+        display: block;
+    }
+
+
+    aside.menu {
+      
+        height: auto;
+    }
+
+   }
+
+   
+
+
+
+
+
+/* ==========================
+
+======== For mobile =================
+
+=================================== */
+
+@media (max-width:576px) {
+    article.matches {
+      
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        width: 90%;
+       
+    }
+    .menu-buttons {
+       
+        display: flex;
+    }
+
+}
