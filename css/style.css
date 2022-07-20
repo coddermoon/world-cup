@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: .6s;
 }
 
 body{
@@ -125,10 +126,10 @@ article.matches {
     margin-bottom: 50px;
 }
 .match {
-    
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 2px 2px 40px #ddd;
 }
 .icons {
     display: flex;
@@ -147,6 +148,7 @@ article.matches {
     width: 24px;
     height: 24px;
 }
+
 
 
 
@@ -191,9 +193,15 @@ article.matches {
     font-size: 25px;
     padding: 14px;
     color: #fff;
+    
    
 }
-
+.social-links a:hover{
+    background: #fff;
+    color: black;
+    border-radius: 50%;
+   
+}
 
 /* second part */
 
@@ -206,11 +214,19 @@ article.matches {
 }
 #sedule .image img{
     width: 38%;
+    
 }
 
 #sedule h6 {
     font-size: 1.3rem;
     padding: 10px;
+}
+
+.match:hover .image img{
+
+        transform: scale(1.1);
+        border-radius: 5px;
+
 }
 
 
