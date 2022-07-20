@@ -79,20 +79,29 @@ img{
     border: 1px solid lightgray;
 }
 
-article .matches {
+article.matches {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 50px;
 }
-
+.match {
+    
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 20px;
+}
 .icons {
     display: flex;
-    justify-content: space-between;
+   
+    margin-top: 20px;
 }
 
 .icon {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin: 0 10px;
 }
 
 .icon img{
