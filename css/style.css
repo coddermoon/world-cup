@@ -192,3 +192,19 @@ article.matches {
     color: #fff;
    
 }
+
+
+/* second part */
+
+/* sedule */
+
+#sedule .image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sedule h6 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
