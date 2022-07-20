@@ -203,6 +203,9 @@ article.matches {
     align-items: center;
     justify-content: space-between;
 }
+#sedule .image img{
+    width: 38%;
+}
 
 #sedule h6 {
     font-size: 1.3rem;
