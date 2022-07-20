@@ -26,6 +26,8 @@
     aside.menu {
       
         height: auto;
+        background: transparent;
+        box-shadow: 2px 2px 40px #ddd;
     }
     .menu-list {
         
