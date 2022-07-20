@@ -64,13 +64,17 @@ i.fa-solid.fa-arrow-right {
 ============= Header css =================
 ====================================*/
  
-   .banner{
+.banner {
     background: linear-gradient(47deg, rgba(246,99,20,1) 0%, rgba(115,142,215,1) 13%, rgba(43,43,209,1) 40%, rgba(8,27,133,1) 50%, rgba(88,95,235,1) 75%, rgba(198,95,4,1) 100%, rgba(0,212,255,1) 100%);
     border-radius: 30px;
     display: flex;
     color: #fff;
-
-   } 
+    overflow: hidden;
+} 
+   .banner img{
+    position: relative;
+    animation: imageTransition 5s ease-in-out infinite;
+   }
 
 
    .content h1 {
@@ -260,4 +264,17 @@ article.matches {
     } 100%{
         opacity: 0;
     }
+}
+
+
+@keyframes imageTransition {
+    0%{
+       transform: translate(0);
+    }
+    50%{
+       transform: translate(30px , 30px);
+    }
+    100%{
+        transform: translate(0);
+     }
 }
