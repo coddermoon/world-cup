@@ -43,6 +43,13 @@ img{
     display: inline-block;
     transition: .6s;
 }
+
+i.fa-solid.fa-arrow-right {
+    animation: blinking 5s ease-in-out infinite;
+    transition: .6s;
+    font-weight: 700;
+}
+
 .btn-red:hover{
     background: #000;
 }
@@ -240,4 +247,17 @@ article.matches {
     color: #4D4D4D;
    
     padding-top: 5px;
+}
+
+
+/* animation part */
+
+@keyframes blinking {
+    0%{
+        opacity: 0;
+    } 50%{
+        opacity: 1;
+    } 100%{
+        opacity: 0;
+    }
 }
