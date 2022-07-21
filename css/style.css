@@ -277,4 +277,19 @@ article.matches {
     100%{
         transform: translate(0);
      }
+
+
+
+}
+
+/* extra button for bonus mark  */
+
+button.btn.show {
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 14px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: none;
 }
